@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local uqscoolgui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
@@ -57,46 +52,54 @@ local invis = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
 local oltroblos = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
+local amogus = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
 local antifling = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local othernote = Instance.new("TextLabel")
 local Exit = Instance.new("TextButton")
 local other = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local otherstuff = Instance.new("Frame")
 local UICorner_28 = Instance.new("UICorner")
+local otherstuff = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
 local title_2 = Instance.new("TextLabel")
 local Exit2 = Instance.new("TextButton")
 local othermainarea = Instance.new("Frame")
-local UICorner_29 = Instance.new("UICorner")
-local valuebox = Instance.new("TextBox")
 local UICorner_30 = Instance.new("UICorner")
-local wspeed = Instance.new("TextButton")
+local valuebox = Instance.new("TextBox")
 local UICorner_31 = Instance.new("UICorner")
-local jpower = Instance.new("TextButton")
+local wspeed = Instance.new("TextButton")
 local UICorner_32 = Instance.new("UICorner")
-local health = Instance.new("TextButton")
+local jpower = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local hheight = Instance.new("TextButton")
+local health = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
-local mhealth = Instance.new("TextButton")
+local hheight = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
+local mhealth = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
 local UIGradient_3 = Instance.new("UIGradient")
 local UIGradient_4 = Instance.new("UIGradient")
 local noaccessory = Instance.new("Frame")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local title_3 = Instance.new("TextLabel")
-local Exit_2 = Instance.new("TextButton")
+local Exit3 = Instance.new("TextButton")
 local lol = Instance.new("TextLabel")
 local ok = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local lol2 = Instance.new("TextLabel")
 local UIGradient_5 = Instance.new("UIGradient")
-
---Properties:
-
+local screenshot = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
+local title_4 = Instance.new("TextLabel")
+local Exit4 = Instance.new("TextButton")
+local oklol = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local screenshotlol = Instance.new("ImageLabel")
+local UICorner_41 = Instance.new("UICorner")
 uqscoolgui.Name = "uqscoolgui"
 uqscoolgui.Parent = game.CoreGui
 uqscoolgui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -105,7 +108,7 @@ Main.Name = "Main"
 Main.Parent = uqscoolgui
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.Position = UDim2.new(0.141579732, 0, 0.176254585, 0)
-Main.Size = UDim2.new(0, 390, 0, 464)
+Main.Size = UDim2.new(0, 390, 0, 506)
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 72)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(146, 246, 255))}
 UIGradient.Rotation = 50
@@ -129,8 +132,8 @@ title.TextStrokeTransparency = 0.800
 scrollthing.Name = "scrollthing"
 scrollthing.Parent = Main
 scrollthing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-scrollthing.Position = UDim2.new(0.0150365587, 0, 0.118534483, 0)
-scrollthing.Size = UDim2.new(0, 378, 0, 359)
+scrollthing.Position = UDim2.new(0.0150365587, 0, 0.118534498, 0)
+scrollthing.Size = UDim2.new(0, 378, 0, 400)
 
 main.Name = "main"
 main.Parent = scrollthing
@@ -139,8 +142,8 @@ main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 main.BackgroundTransparency = 1.000
 main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 main.BorderSizePixel = 0
-main.Position = UDim2.new(0.0370912887, 0, 0.0256158933, 0)
-main.Size = UDim2.new(0, 363, 0, 349)
+main.Position = UDim2.new(0.0370912887, 0, 0.0256159212, 0)
+main.Size = UDim2.new(0, 363, 0, 389)
 main.BottomImage = ""
 main.MidImage = ""
 main.TopImage = ""
@@ -472,8 +475,22 @@ oltroblos.TextStrokeTransparency = 0.800
 
 UICorner_24.Parent = oltroblos
 
-UICorner_25.CornerRadius = UDim.new(0, 10)
-UICorner_25.Parent = scrollthing
+amogus.Name = "amogus"
+amogus.Parent = main
+amogus.BackgroundColor3 = Color3.fromRGB(0, 240, 128)
+amogus.BackgroundTransparency = 0.500
+amogus.Position = UDim2.new(0, 0, 0.0199430194, 0)
+amogus.Size = UDim2.new(0, 360, 0, 30)
+amogus.Font = Enum.Font.Ubuntu
+amogus.Text = "Among Us (Right Click For Screenshot)"
+amogus.TextColor3 = Color3.fromRGB(255, 255, 255)
+amogus.TextSize = 20.000
+amogus.TextStrokeTransparency = 0.800
+
+UICorner_25.Parent = amogus
+
+UICorner_26.CornerRadius = UDim.new(0, 10)
+UICorner_26.Parent = scrollthing
 
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 170)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(146, 246, 255))}
 UIGradient_2.Rotation = 50
@@ -483,15 +500,15 @@ antifling.Name = "antifling"
 antifling.Parent = Main
 antifling.BackgroundColor3 = Color3.fromRGB(0, 255, 72)
 antifling.BackgroundTransparency = 0.500
-antifling.Position = UDim2.new(0.0224438794, 0, 0.909482777, 0)
-antifling.Size = UDim2.new(0, 182, 0, 34)
+antifling.Position = UDim2.new(0.0147515712, 0, 0.920987964, 0)
+antifling.Size = UDim2.new(0, 182, 0, 31)
 antifling.Font = Enum.Font.Ubuntu
 antifling.Text = "Antifling"
 antifling.TextColor3 = Color3.fromRGB(255, 255, 255)
 antifling.TextSize = 25.000
 antifling.TextStrokeTransparency = 0.800
 
-UICorner_26.Parent = antifling
+UICorner_27.Parent = antifling
 
 othernote.Name = "othernote"
 othernote.Parent = Main
@@ -521,25 +538,25 @@ other.Name = "other"
 other.Parent = Main
 other.BackgroundColor3 = Color3.fromRGB(0, 255, 72)
 other.BackgroundTransparency = 0.500
-other.Position = UDim2.new(0.504538834, 0, 0.909482777, 0)
-other.Size = UDim2.new(0, 187, 0, 34)
+other.Position = UDim2.new(0.504538834, 0, 0.920987964, 0)
+other.Size = UDim2.new(0, 187, 0, 32)
 other.Font = Enum.Font.Ubuntu
 other.Text = "Other Stuff"
 other.TextColor3 = Color3.fromRGB(255, 255, 255)
 other.TextSize = 25.000
 other.TextStrokeTransparency = 0.800
 
-UICorner_27.Parent = other
+UICorner_28.Parent = other
 
 otherstuff.Name = "otherstuff"
 otherstuff.Parent = Main
 otherstuff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-otherstuff.Position = UDim2.new(1.01782405, 0, -0.000954923977, 0)
-otherstuff.Size = UDim2.new(0, 327, 0, 464)
+otherstuff.Position = UDim2.new(1.01782417, 0, -0.000954910705, 0)
+otherstuff.Size = UDim2.new(0, 327, 0, 506)
 otherstuff.Visible = false
 
-UICorner_28.CornerRadius = UDim.new(0, 10)
-UICorner_28.Parent = otherstuff
+UICorner_29.CornerRadius = UDim.new(0, 10)
+UICorner_29.Parent = otherstuff
 
 title_2.Name = "title"
 title_2.Parent = otherstuff
@@ -568,11 +585,11 @@ Exit2.TextStrokeTransparency = 0.800
 othermainarea.Name = "othermainarea"
 othermainarea.Parent = otherstuff
 othermainarea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-othermainarea.Position = UDim2.new(0.0174564272, 0, 0.104403198, 0)
-othermainarea.Size = UDim2.new(0, 315, 0, 408)
+othermainarea.Position = UDim2.new(0.0174564272, 0, 0.0883558095, 0)
+othermainarea.Size = UDim2.new(0, 315, 0, 452)
 
-UICorner_29.CornerRadius = UDim.new(0, 10)
-UICorner_29.Parent = othermainarea
+UICorner_30.CornerRadius = UDim.new(0, 10)
+UICorner_30.Parent = othermainarea
 
 valuebox.Name = "valuebox"
 valuebox.Parent = othermainarea
@@ -585,14 +602,14 @@ valuebox.Text = ""
 valuebox.TextColor3 = Color3.fromRGB(0, 0, 0)
 valuebox.TextSize = 25.000
 
-UICorner_30.CornerRadius = UDim.new(0, 10)
-UICorner_30.Parent = valuebox
+UICorner_31.CornerRadius = UDim.new(0, 10)
+UICorner_31.Parent = valuebox
 
 wspeed.Name = "wspeed"
 wspeed.Parent = othermainarea
 wspeed.BackgroundColor3 = Color3.fromRGB(0, 255, 72)
 wspeed.BackgroundTransparency = 0.600
-wspeed.Position = UDim2.new(0.0206719302, 0, 0.13884525, 0)
+wspeed.Position = UDim2.new(0.0206719302, 0, 0.127583995, 0)
 wspeed.Size = UDim2.new(0, 144, 0, 42)
 wspeed.Font = Enum.Font.Ubuntu
 wspeed.Text = "Set Walkspeed"
@@ -600,13 +617,13 @@ wspeed.TextColor3 = Color3.fromRGB(255, 255, 255)
 wspeed.TextSize = 20.000
 wspeed.TextStrokeTransparency = 0.800
 
-UICorner_31.Parent = wspeed
+UICorner_32.Parent = wspeed
 
 jpower.Name = "jpower"
 jpower.Parent = othermainarea
 jpower.BackgroundColor3 = Color3.fromRGB(0, 255, 72)
 jpower.BackgroundTransparency = 0.600
-jpower.Position = UDim2.new(0.50387603, 0, 0.13884525, 0)
+jpower.Position = UDim2.new(0.50387603, 0, 0.127583995, 0)
 jpower.Size = UDim2.new(0, 149, 0, 42)
 jpower.Font = Enum.Font.Ubuntu
 jpower.Text = "Set Jump Power"
@@ -614,13 +631,13 @@ jpower.TextColor3 = Color3.fromRGB(255, 255, 255)
 jpower.TextSize = 20.000
 jpower.TextStrokeTransparency = 0.800
 
-UICorner_32.Parent = jpower
+UICorner_33.Parent = jpower
 
 health.Name = "health"
 health.Parent = othermainarea
 health.BackgroundColor3 = Color3.fromRGB(0, 255, 72)
 health.BackgroundTransparency = 0.600
-health.Position = UDim2.new(0.0206719302, 0, 0.257240742, 0)
+health.Position = UDim2.new(0.0206719302, 0, 0.230213717, 0)
 health.Size = UDim2.new(0, 144, 0, 42)
 health.Font = Enum.Font.Ubuntu
 health.Text = "Set Health"
@@ -628,13 +645,13 @@ health.TextColor3 = Color3.fromRGB(255, 255, 255)
 health.TextSize = 20.000
 health.TextStrokeTransparency = 0.800
 
-UICorner_33.Parent = health
+UICorner_34.Parent = health
 
 hheight.Name = "hheight"
 hheight.Parent = othermainarea
 hheight.BackgroundColor3 = Color3.fromRGB(0, 255, 72)
 hheight.BackgroundTransparency = 0.600
-hheight.Position = UDim2.new(0.50387603, 0, 0.257240683, 0)
+hheight.Position = UDim2.new(0.50387603, 0, 0.232465908, 0)
 hheight.Size = UDim2.new(0, 149, 0, 42)
 hheight.Font = Enum.Font.Ubuntu
 hheight.Text = "Set Hip Height"
@@ -642,13 +659,13 @@ hheight.TextColor3 = Color3.fromRGB(255, 255, 255)
 hheight.TextSize = 20.000
 hheight.TextStrokeTransparency = 0.800
 
-UICorner_34.Parent = hheight
+UICorner_35.Parent = hheight
 
 mhealth.Name = "mhealth"
 mhealth.Parent = othermainarea
 mhealth.BackgroundColor3 = Color3.fromRGB(0, 255, 72)
 mhealth.BackgroundTransparency = 0.600
-mhealth.Position = UDim2.new(0.281432331, 0, 0.372099996, 0)
+mhealth.Position = UDim2.new(0.262384713, 0, 0.342900455, 0)
 mhealth.Size = UDim2.new(0, 149, 0, 42)
 mhealth.Font = Enum.Font.Ubuntu
 mhealth.Text = "Set Max Health"
@@ -656,7 +673,7 @@ mhealth.TextColor3 = Color3.fromRGB(255, 255, 255)
 mhealth.TextSize = 20.000
 mhealth.TextStrokeTransparency = 0.800
 
-UICorner_35.Parent = mhealth
+UICorner_36.Parent = mhealth
 
 UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 170)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(146, 246, 255))}
 UIGradient_3.Rotation = 50
@@ -674,8 +691,8 @@ noaccessory.Position = UDim2.new(0.499254882, 0, 0.480416149, 0)
 noaccessory.Size = UDim2.new(0, 401, 0, 163)
 noaccessory.Visible = false
 
-UICorner_36.CornerRadius = UDim.new(0, 10)
-UICorner_36.Parent = noaccessory
+UICorner_37.CornerRadius = UDim.new(0, 10)
+UICorner_37.Parent = noaccessory
 
 title_3.Name = "title"
 title_3.Parent = noaccessory
@@ -689,16 +706,17 @@ title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 title_3.TextSize = 45.000
 title_3.TextStrokeTransparency = 0.800
 
-Exit_2.Name = "Exit"
-Exit_2.Parent = noaccessory
-Exit_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Exit_2.BackgroundTransparency = 1.000
-Exit_2.Position = UDim2.new(0.900249362, 0, 0, 0)
-Exit_2.Size = UDim2.new(0, 40, 0, 39)
-Exit_2.Font = Enum.Font.FredokaOne
-Exit_2.Text = "X"
-Exit_2.TextColor3 = Color3.fromRGB(236, 236, 236)
-Exit_2.TextSize = 30.000
+Exit3.Name = "Exit3"
+Exit3.Parent = noaccessory
+Exit3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit3.BackgroundTransparency = 1.000
+Exit3.Position = UDim2.new(0.900249362, 0, 0, 0)
+Exit3.Size = UDim2.new(0, 40, 0, 39)
+Exit3.Font = Enum.Font.FredokaOne
+Exit3.Text = "X"
+Exit3.TextColor3 = Color3.fromRGB(236, 236, 236)
+Exit3.TextSize = 30.000
+Exit3.TextStrokeTransparency = 0.800
 
 lol.Name = "lol"
 lol.Parent = noaccessory
@@ -724,7 +742,7 @@ ok.TextColor3 = Color3.fromRGB(255, 255, 255)
 ok.TextSize = 25.000
 ok.TextStrokeTransparency = 0.800
 
-UICorner_37.Parent = ok
+UICorner_38.Parent = ok
 
 lol2.Name = "lol2"
 lol2.Parent = noaccessory
@@ -742,9 +760,71 @@ UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fr
 UIGradient_5.Rotation = 50
 UIGradient_5.Parent = noaccessory
 
+screenshot.Name = "screenshot"
+screenshot.Parent = uqscoolgui
+screenshot.AnchorPoint = Vector2.new(0.5, 0.5)
+screenshot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+screenshot.Position = UDim2.new(0.499254882, 0, 0.522643805, 0)
+screenshot.Size = UDim2.new(0, 401, 0, 232)
+screenshot.Visible = false
+
+UICorner_39.CornerRadius = UDim.new(0, 10)
+UICorner_39.Parent = screenshot
+
+title_4.Name = "title"
+title_4.Parent = screenshot
+title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_4.BackgroundTransparency = 1.000
+title_4.Position = UDim2.new(0.0897755623, 0, -0.0368544981, 0)
+title_4.Size = UDim2.new(0, 96, 0, 56)
+title_4.Font = Enum.Font.TitilliumWeb
+title_4.Text = "Screenshot"
+title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_4.TextSize = 45.000
+title_4.TextStrokeTransparency = 0.800
+
+Exit4.Name = "Exit4"
+Exit4.Parent = screenshot
+Exit4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit4.BackgroundTransparency = 1.000
+Exit4.Position = UDim2.new(0.900249362, 0, 0, 0)
+Exit4.Size = UDim2.new(0, 40, 0, 39)
+Exit4.Font = Enum.Font.FredokaOne
+Exit4.Text = "X"
+Exit4.TextColor3 = Color3.fromRGB(236, 236, 236)
+Exit4.TextSize = 30.000
+Exit4.TextStrokeTransparency = 0.800
+
+oklol.Name = "oklol"
+oklol.Parent = screenshot
+oklol.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+oklol.BackgroundTransparency = 0.500
+oklol.Position = UDim2.new(0.0224438906, 0, 0.814912558, 0)
+oklol.Size = UDim2.new(0, 383, 0, 34)
+oklol.Font = Enum.Font.Ubuntu
+oklol.Text = "Close"
+oklol.TextColor3 = Color3.fromRGB(255, 255, 255)
+oklol.TextSize = 25.000
+oklol.TextStrokeTransparency = 0.800
+
+UICorner_40.Parent = oklol
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 72)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(146, 246, 255))}
+UIGradient_6.Rotation = 50
+UIGradient_6.Parent = screenshot
+
+screenshotlol.Name = "screenshotlol"
+screenshotlol.Parent = screenshot
+screenshotlol.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+screenshotlol.Position = UDim2.new(0.321695775, 0, 0.168103442, 0)
+screenshotlol.Size = UDim2.new(0, 144, 0, 141)
+screenshotlol.Image = "rbxassetid://10248464424"
+
+UICorner_41.Parent = screenshotlol
+
 -- Scripts:
 
-local function WTQUDFZ_fake_script() -- Sonic.sonic 
+local function XRFJFHN_fake_script() -- Sonic.sonic 
 	local script = Instance.new('LocalScript', Sonic)
 
 	Sonic.MouseButton1Click:Connect(function()
@@ -752,8 +832,8 @@ local function WTQUDFZ_fake_script() -- Sonic.sonic
 	end)
 	
 end
-coroutine.wrap(WTQUDFZ_fake_script)()
-local function UGBI_fake_script() -- Septix.septix 
+coroutine.wrap(XRFJFHN_fake_script)()
+local function TYJG_fake_script() -- Septix.septix 
 	local script = Instance.new('LocalScript', Septix)
 
 	Septix.MouseButton1Click:Connect(function()
@@ -761,8 +841,8 @@ local function UGBI_fake_script() -- Septix.septix
 	end)
 	
 end
-coroutine.wrap(UGBI_fake_script)()
-local function QBNNX_fake_script() -- creepycrawler.creepycrawler 
+coroutine.wrap(TYJG_fake_script)()
+local function PWEFVI_fake_script() -- creepycrawler.creepycrawler 
 	local script = Instance.new('LocalScript', creepycrawler)
 
 	creepycrawler.MouseButton1Click:Connect(function()
@@ -770,8 +850,8 @@ local function QBNNX_fake_script() -- creepycrawler.creepycrawler
 	end)
 	
 end
-coroutine.wrap(QBNNX_fake_script)()
-local function ILZQRE_fake_script() -- nekomaid.nekomaid 
+coroutine.wrap(PWEFVI_fake_script)()
+local function LRGF_fake_script() -- nekomaid.nekomaid 
 	local script = Instance.new('LocalScript', nekomaid)
 
 	nekomaid.MouseButton1Click:Connect(function()
@@ -779,8 +859,8 @@ local function ILZQRE_fake_script() -- nekomaid.nekomaid
 	end)
 	
 end
-coroutine.wrap(ILZQRE_fake_script)()
-local function STSJEQL_fake_script() -- Spider.spider 
+coroutine.wrap(LRGF_fake_script)()
+local function CSBXK_fake_script() -- Spider.spider 
 	local script = Instance.new('LocalScript', Spider)
 
 	Spider.MouseButton1Click:Connect(function()
@@ -788,8 +868,8 @@ local function STSJEQL_fake_script() -- Spider.spider
 	end)
 	
 end
-coroutine.wrap(STSJEQL_fake_script)()
-local function DELW_fake_script() -- InfiniteYield.infyield 
+coroutine.wrap(CSBXK_fake_script)()
+local function HRQII_fake_script() -- InfiniteYield.infyield 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	InfiniteYield.MouseButton1Click:Connect(function()
@@ -797,8 +877,8 @@ local function DELW_fake_script() -- InfiniteYield.infyield
 	end)
 	
 end
-coroutine.wrap(DELW_fake_script)()
-local function KFNMH_fake_script() -- InvisFling.invisfling 
+coroutine.wrap(HRQII_fake_script)()
+local function IIQNQKJ_fake_script() -- InvisFling.invisfling 
 	local script = Instance.new('LocalScript', InvisFling)
 
 	InvisFling.MouseButton1Click:Connect(function()
@@ -806,8 +886,8 @@ local function KFNMH_fake_script() -- InvisFling.invisfling
 	end)
 	
 end
-coroutine.wrap(KFNMH_fake_script)()
-local function OUAQWGY_fake_script() -- DarkDex.dex 
+coroutine.wrap(IIQNQKJ_fake_script)()
+local function PMDJ_fake_script() -- DarkDex.dex 
 	local script = Instance.new('LocalScript', DarkDex)
 
 	DarkDex.MouseButton1Click:Connect(function()
@@ -815,8 +895,8 @@ local function OUAQWGY_fake_script() -- DarkDex.dex
 	end)
 	
 end
-coroutine.wrap(OUAQWGY_fake_script)()
-local function UYTP_fake_script() -- UnnamedESP.uESP 
+coroutine.wrap(PMDJ_fake_script)()
+local function JCZACJN_fake_script() -- UnnamedESP.uESP 
 	local script = Instance.new('LocalScript', UnnamedESP)
 
 	UnnamedESP.MouseButton1Click:Connect(function()
@@ -824,8 +904,8 @@ local function UYTP_fake_script() -- UnnamedESP.uESP
 	end)
 	
 end
-coroutine.wrap(UYTP_fake_script)()
-local function XLCKI_fake_script() -- Energize.energize 
+coroutine.wrap(JCZACJN_fake_script)()
+local function TLDNO_fake_script() -- Energize.energize 
 	local script = Instance.new('LocalScript', Energize)
 
 	Energize.MouseButton1Click:Connect(function()
@@ -833,8 +913,8 @@ local function XLCKI_fake_script() -- Energize.energize
 	end)
 	
 end
-coroutine.wrap(XLCKI_fake_script)()
-local function FAOQFTY_fake_script() -- Helicopter.feheli 
+coroutine.wrap(TLDNO_fake_script)()
+local function XRIRFU_fake_script() -- Helicopter.feheli 
 	local script = Instance.new('LocalScript', Helicopter)
 
 	Helicopter.MouseButton1Click:Connect(function()
@@ -842,8 +922,8 @@ local function FAOQFTY_fake_script() -- Helicopter.feheli
 	end)
 	
 end
-coroutine.wrap(FAOQFTY_fake_script)()
-local function HXXO_fake_script() -- NeckCrack.neckcrack 
+coroutine.wrap(XRIRFU_fake_script)()
+local function CDNNDE_fake_script() -- NeckCrack.neckcrack 
 	local script = Instance.new('LocalScript', NeckCrack)
 
 	NeckCrack.MouseButton1Click:Connect(function()
@@ -851,8 +931,8 @@ local function HXXO_fake_script() -- NeckCrack.neckcrack
 	end)
 	
 end
-coroutine.wrap(HXXO_fake_script)()
-local function WXLF_fake_script() -- CMDX.cmdx 
+coroutine.wrap(CDNNDE_fake_script)()
+local function DAXXR_fake_script() -- CMDX.cmdx 
 	local script = Instance.new('LocalScript', CMDX)
 
 	CMDX.MouseButton1Click:Connect(function()
@@ -860,8 +940,8 @@ local function WXLF_fake_script() -- CMDX.cmdx
 	end)
 	
 end
-coroutine.wrap(WXLF_fake_script)()
-local function GMQH_fake_script() -- DBshotgun.shotgun 
+coroutine.wrap(DAXXR_fake_script)()
+local function VXXVJZ_fake_script() -- DBshotgun.shotgun 
 	local script = Instance.new('LocalScript', DBshotgun)
 
 	DBshotgun.MouseButton1Click:Connect(function()
@@ -874,8 +954,8 @@ local function GMQH_fake_script() -- DBshotgun.shotgun
 	end)
 	
 end
-coroutine.wrap(GMQH_fake_script)()
-local function AXPYE_fake_script() -- hairfling.hf 
+coroutine.wrap(VXXVJZ_fake_script)()
+local function YCCHIK_fake_script() -- hairfling.hf 
 	local script = Instance.new('LocalScript', hairfling)
 
 	hairfling.MouseButton1Click:Connect(function()
@@ -888,8 +968,8 @@ local function AXPYE_fake_script() -- hairfling.hf
 	end)
 	
 end
-coroutine.wrap(AXPYE_fake_script)()
-local function TQTBN_fake_script() -- motorcycle.mcycle 
+coroutine.wrap(YCCHIK_fake_script)()
+local function DTLFTPD_fake_script() -- motorcycle.mcycle 
 	local script = Instance.new('LocalScript', motorcycle)
 
 	motorcycle.MouseButton1Click:Connect(function()
@@ -901,64 +981,75 @@ local function TQTBN_fake_script() -- motorcycle.mcycle
 		end
 	end)
 end
-coroutine.wrap(TQTBN_fake_script)()
-local function SDILO_fake_script() -- Chips.chips 
+coroutine.wrap(DTLFTPD_fake_script)()
+local function IQAUDPW_fake_script() -- Chips.chips 
 	local script = Instance.new('LocalScript', Chips)
 
 	Chips.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/b289ts36"))()
 	end)
 end
-coroutine.wrap(SDILO_fake_script)()
-local function OEKO_fake_script() -- ultmemedance.memedance 
+coroutine.wrap(IQAUDPW_fake_script)()
+local function YQYWRQ_fake_script() -- ultmemedance.memedance 
 	local script = Instance.new('LocalScript', ultmemedance)
 
 	ultmemedance.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
 	end)
 end
-coroutine.wrap(OEKO_fake_script)()
-local function GCAIOF_fake_script() -- joy.joy 
+coroutine.wrap(YQYWRQ_fake_script)()
+local function IOFBI_fake_script() -- joy.joy 
 	local script = Instance.new('LocalScript', joy)
 
 	joy.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/LEAQuKj0"))()
 	end)
 end
-coroutine.wrap(GCAIOF_fake_script)()
-local function MRPJKEO_fake_script() -- goopie.goopie 
+coroutine.wrap(IOFBI_fake_script)()
+local function PWJJD_fake_script() -- goopie.goopie 
 	local script = Instance.new('LocalScript', goopie)
 
 	goopie.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/fKLm580i"))()
 	end)
 end
-coroutine.wrap(MRPJKEO_fake_script)()
-local function KEOLK_fake_script() -- RussianKick.ruskik 
+coroutine.wrap(PWJJD_fake_script)()
+local function JEGFN_fake_script() -- RussianKick.ruskik 
 	local script = Instance.new('LocalScript', RussianKick)
 
 	RussianKick.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/1P37qYeV"))()
 	end)
 end
-coroutine.wrap(KEOLK_fake_script)()
-local function JWVLPKS_fake_script() -- invis.invis 
+coroutine.wrap(JEGFN_fake_script)()
+local function QJIZOM_fake_script() -- invis.invis 
 	local script = Instance.new('LocalScript', invis)
 
 	invis.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/FDbqVbTa"))()
 	end)
 end
-coroutine.wrap(JWVLPKS_fake_script)()
-local function DMEWH_fake_script() -- oltroblos.lo 
+coroutine.wrap(QJIZOM_fake_script)()
+local function QMNWGLL_fake_script() -- oltroblos.lo 
 	local script = Instance.new('LocalScript', oltroblos)
 
 	oltroblos.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/kosuke14/REBOYHub/main/games/2016_Roblox.lua"))()
 	end)
 end
-coroutine.wrap(DMEWH_fake_script)()
-local function BXVZJYG_fake_script() -- antifling.antifling 
+coroutine.wrap(QMNWGLL_fake_script)()
+local function ZVJF_fake_script() -- amogus.amogus 
+	local script = Instance.new('LocalScript', amogus)
+
+	amogus.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/9UqaNnZy"))()
+	end)
+	amogus.MouseButton2Click:Connect(function()
+		screenshot.Visible = true
+	end)
+end
+coroutine.wrap(ZVJF_fake_script)()
+local function ACAAG_fake_script() -- antifling.antifling 
 	local script = Instance.new('LocalScript', antifling)
 
 	antifling.MouseButton1Click:Connect(function()
@@ -1048,16 +1139,16 @@ local function BXVZJYG_fake_script() -- antifling.antifling
 	end)
 	
 end
-coroutine.wrap(BXVZJYG_fake_script)()
-local function RSGEOG_fake_script() -- Exit.LocalScript 
+coroutine.wrap(ACAAG_fake_script)()
+local function XEDWFRL_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	Exit.MouseButton1Click:Connect(function()
 		uqscoolgui:Destroy()
 	end)
 end
-coroutine.wrap(RSGEOG_fake_script)()
-local function DXFO_fake_script() -- other.other 
+coroutine.wrap(XEDWFRL_fake_script)()
+local function YZKPFNH_fake_script() -- other.other 
 	local script = Instance.new('LocalScript', other)
 
 	other.MouseButton1Click:Connect(function()
@@ -1065,16 +1156,16 @@ local function DXFO_fake_script() -- other.other
 	end)
 	
 end
-coroutine.wrap(DXFO_fake_script)()
-local function USGCOHX_fake_script() -- Exit2.LocalScript 
+coroutine.wrap(YZKPFNH_fake_script)()
+local function UWRIBJ_fake_script() -- Exit2.LocalScript 
 	local script = Instance.new('LocalScript', Exit2)
 
 	Exit2.MouseButton1Click:Connect(function()
 		otherstuff.Visible = false
 	end)
 end
-coroutine.wrap(USGCOHX_fake_script)()
-local function BCXCZW_fake_script() -- othermainarea.othermainscript 
+coroutine.wrap(UWRIBJ_fake_script)()
+local function ZLACQ_fake_script() -- othermainarea.othermainscript 
 	local script = Instance.new('LocalScript', othermainarea)
 
 	health.MouseButton1Click:Connect(function()
@@ -1098,8 +1189,8 @@ local function BCXCZW_fake_script() -- othermainarea.othermainscript
 	end)
 	
 end
-coroutine.wrap(BCXCZW_fake_script)()
-local function IWFKDFX_fake_script() -- othermainarea.dragother 
+coroutine.wrap(ZLACQ_fake_script)()
+local function DIMINTS_fake_script() -- othermainarea.dragother 
 	local script = Instance.new('LocalScript', othermainarea)
 
 	local UIS = game:GetService("UserInputService")
@@ -1140,24 +1231,24 @@ local function IWFKDFX_fake_script() -- othermainarea.dragother
 	
 	dragify(otherstuff)
 end
-coroutine.wrap(IWFKDFX_fake_script)()
-local function NLXIWXJ_fake_script() -- Exit_2.LocalScript 
-	local script = Instance.new('LocalScript', Exit_2)
+coroutine.wrap(DIMINTS_fake_script)()
+local function VVBNON_fake_script() -- Exit3.LocalScript 
+	local script = Instance.new('LocalScript', Exit3)
 
-	ok.MouseButton1Click:Connect(function()
+	Exit3.MouseButton1Click:Connect(function()
 		noaccessory.Visible = false
 	end)
 end
-coroutine.wrap(NLXIWXJ_fake_script)()
-local function FZYQT_fake_script() -- ok.ok 
+coroutine.wrap(VVBNON_fake_script)()
+local function PXHEEJD_fake_script() -- ok.ok 
 	local script = Instance.new('LocalScript', ok)
 
 	ok.MouseButton1Click:Connect(function()
 		noaccessory.Visible = false
 	end)
 end
-coroutine.wrap(FZYQT_fake_script)()
-local function VDVG_fake_script() -- uqscoolgui.dragmain 
+coroutine.wrap(PXHEEJD_fake_script)()
+local function KQAJMNN_fake_script() -- uqscoolgui.dragmain 
 	local script = Instance.new('LocalScript', uqscoolgui)
 
 	local UIS = game:GetService("UserInputService")
@@ -1198,4 +1289,21 @@ local function VDVG_fake_script() -- uqscoolgui.dragmain
 	
 	dragify(Main)
 end
-coroutine.wrap(VDVG_fake_script)()
+coroutine.wrap(KQAJMNN_fake_script)()
+local function LLSTZ_fake_script() -- Exit4.LocalScript 
+	local script = Instance.new('LocalScript', Exit4)
+
+	Exit4.MouseButton1Click:Connect(function()
+		screenshot.Visible = false
+	end)
+end
+coroutine.wrap(LLSTZ_fake_script)()
+local function HCMCL_fake_script() -- oklol.ok 
+	local script = Instance.new('LocalScript', oklol)
+
+	oklol.MouseButton1Click:Connect(function()
+		screenshot.Visible = false
+	end)
+end
+coroutine.wrap(HCMCL_fake_script)()
+
